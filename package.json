@@ -1,0 +1,22 @@
+{
+  "name": "mental_hh",
+  "version": "1.0.0",
+  "description": "Mental Health Help Web Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzraChen1630/Mental_HH.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EzraChen1630/Mental_HH/issues"
+  },
+  "homepage": "https://github.com/EzraChen1630/Mental_HH#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
