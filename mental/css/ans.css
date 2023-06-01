@@ -39,9 +39,6 @@ textarea {
   resize: vertical;
 }
 
-body{
-  background-image: url("images/beg2.jpg");
-}
 .footer-section {
   background: #333;
   color: #fff;
@@ -52,3 +49,4 @@ body{
 .footer-section p {
   font-size: 14px;
 }
+   

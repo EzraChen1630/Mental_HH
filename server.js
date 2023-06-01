@@ -15,7 +15,7 @@ var express = require('express');
 var app = express();
 var port_ap = process.env.port || 3001;
 
-app.use(express.static('Appointment Booking', {index: 'appointment.html'}))
+app.use(express.static('Appointment Booking', {index: 'Appointment.html'}))
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
