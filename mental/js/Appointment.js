@@ -60,3 +60,41 @@ function validateForm() {
     // If all validations pass, the form can be submitted
     return true;
   }
+
+
+
+//data input
+
+const submitForm = () => {
+  let formData = {};
+  formData.name = $('#name').val();
+  formData.email = $('#email').val();
+  formData.phone = $('#phone').val();
+  formData.date = $('#date').val();
+  formData.doctor = $('#doctor').val();
+  formData.message = $('#message').val();
+
+  console.log('form data: ', formData);
+  addCat(formData);
+}
+
+const addInfo = (info) => {
+  $.ajax({
+      url: 'api/info',
+      data: info,
+      type: 'POST',
+      success: (result) => {
+          alert(result.message);
+          location.reload();
+      }
+  });
+}
+
+$(document).ready(function(){
+  $('.materialboxed').materialbox();
+  $('.modal').modal();
+
+  $('#formSubmit').click(()=>{
+      submitForm();
+  })
+});
