@@ -1,0 +1,43 @@
+/* Add your custom styles here */
+
+.container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+  color: #fff;
+}
+
+#comments {
+  margin-bottom: 20px;
+}
+
+#commentForm {
+  margin-top: 20px;
+}
+body{
+	background-image: url("images/beg2.jpg");
+}
+
+.footer-section {
+  background: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-section p {
+  font-size: 14px;
+}
+
+
+.navbar .nav-link {
+  color:  #1E90FF;
+  margin-left: 20px;
+}
