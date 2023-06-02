@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  max-width: 800px;
+  width: 100%;
+}
+
+.form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+} 
+.footer-section {
+  background: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-section p {
+  font-size: 14px;
+}
+  
+  .container {
+  max-width: 600px;
+  margin: 50px auto;
+}

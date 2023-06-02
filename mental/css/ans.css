@@ -1,0 +1,52 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.question-title {
+  margin-bottom: 10px;
+}
+
+.comments-container {
+  margin-top: 50px;
+}
+
+.comments-list {
+  list-style: none;
+  padding: 0;
+}
+
+.comment-item {
+  margin-bottom: 20px;
+}
+
+.comment-author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-text {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.footer-section {
+  background: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-section p {
+  font-size: 14px;
+}
+   
