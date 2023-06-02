@@ -75,7 +75,7 @@ const submitForm = () => {
   formData.message = $('#message').val();
 
   console.log('form data: ', formData);
-  addCat(formData);
+  addInfo(formData);
 }
 
 const addInfo = (info) => {
